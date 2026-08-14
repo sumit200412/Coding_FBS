@@ -1,0 +1,7 @@
+len = int(input("Enter the length : "))
+breadth = int(input("Enter the breadth : "))
+radius = int(input("Enter the radius : "))
+area = (len * breadth) + (3.14 * radius *radius)
+perimeter = (2 * (len * breadth)) + (2 * 3.14 * radius)
+print(f'Area rectangle and circle is : {area}')
+print(f'Perimeter is : {perimeter}')
