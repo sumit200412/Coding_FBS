@@ -45,7 +45,7 @@ while(True):
     if(choice == 5):
         break
 
-    persons = int(input("Enter number of persons: "))
+    persons = int(input("enter number of person: "))
 
     if(choice ==1):
         v = twowheeler()
